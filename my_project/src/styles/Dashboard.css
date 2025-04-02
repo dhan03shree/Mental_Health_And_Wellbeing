@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Main Container */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+/* Navigation Links */
+.navbar a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 12px 18px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: rgba(231, 76, 60, 0.8);
+  color: white;
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #ff4d4d; 
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #cc0000;
+}
+
+/* Main Content */
+.dashboard-content {
+  text-align: center;
+  margin: 50px auto;
+  padding: 40px;
+  max-width: 1000px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.app-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .navbar ul {
+    flex-wrap: wrap;
+  }
+
+  .navbar a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .navbar a {
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+  }
+
+  .logout-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .app-title {
+    font-size: 34px;
+  }
+}

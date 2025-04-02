@@ -1,0 +1,101 @@
+/* General Styling */
+.sos-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f6f9;
+}
+
+/* Card Styling */
+.sos-card {
+  background: white;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Icon */
+.icon-container {
+  background: #e3e6ff;
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #4a90e2;
+}
+
+/* Text Styling */
+h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Input & Textarea */
+.input-box, .message-box {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Buttons */
+.location-btn, .sos-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.location-btn {
+  background: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.location-btn:hover {
+  background: #3b7dd8;
+}
+
+.sos-btn {
+  background: #e24a4a;
+}
+
+.sos-btn:hover {
+  background: #d63e3e;
+}
+
+/* Map Styling */
+.map-container {
+  height: 250px;
+  margin-top: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+/* Address */
+.address-text {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+}

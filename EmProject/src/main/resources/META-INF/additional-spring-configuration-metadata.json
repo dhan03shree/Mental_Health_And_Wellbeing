@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "gemini.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'gemini.api.key'"
+  },
+  {
+    "name": "youtube.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'youtube.api.key'"
+  },
+  {
+    "name": "news.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'news.api.key'"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  },
+  {
+    "name": "jwt.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.expiration'"
+  },
+  {
+    "name": "spring.web.cors.allow-origin",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allow-origin'"
+  },
+  {
+    "name": "spring.web.cors.allowed-origins",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allowed-origins'"
+  }
+]}

@@ -1,0 +1,137 @@
+.mood-tracker {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 1200px; /* Increased width */
+    width: 95%; /* Ensures responsiveness */
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2, h3 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  select, textarea, input {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+  
+  button {
+    background: #28a745;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    width: 48%;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  
+  .delete-button {
+    background: #dc3545;
+  }
+  
+  .delete-button:hover {
+    background: #c82333;
+  }
+  
+  .mood-report-container {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px; /* Wider */
+  }
+  
+  .previous-mood-report {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    margin: 20px 0;
+    text-align: left;
+    width: 98%;
+    max-width: 1200px; /* Even wider */
+    margin: auto;
+  }
+  
+  .previous-mood-report p {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .mood-date {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .mood-description {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .chart-container {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    margin-top: 15px;
+    width: 98%;
+    max-width: 1200px; /* Wider */
+    margin: auto;
+  }
+  
+  @media (max-width: 1024px) {
+    .mood-tracker,
+    .previous-mood-report,
+    .chart-container {
+      width: 96%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mood-tracker,
+    .previous-mood-report,
+    .chart-container {
+      width: 95%;
+    }
+  
+    button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .additional-metrics {
+      flex-direction: column;
+    }
+  
+    .additional-metrics input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
